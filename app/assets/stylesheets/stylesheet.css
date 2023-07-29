@@ -1,10 +1,32 @@
+/* RB font */
+@font-face {
+  font-family: 'RB';
+  src: url('RB-Regular.eot');
+  src: url('RB-Regular.eot?#iefix') format('embedded-opentype'),
+      url('RB-Regular.woff2') format('woff2'),
+      url('RB-Regular.woff') format('woff'),
+      url('RB-Regular.ttf') format('truetype'),
+      url('RB-Regular.svg#RB-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 *{
+  font-family: "RB";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.name{
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+}
+
+.snappy{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
