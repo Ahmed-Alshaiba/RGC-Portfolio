@@ -12,6 +12,11 @@
   font-display: swap;
 }
 
+.logo-name{
+  color: rgb(193, 149, 36);
+  font-size: 20em;
+  font-weight: bold;
+}
 
 *{
   font-family: "RB";
