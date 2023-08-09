@@ -3,8 +3,8 @@ import "@hotwired/turbo-rails"
 import "controllers"
 
 // bootstrap
-import "popper"
-import "bootstrap"
+// import "popper" --removed
+// import "bootstrap" -- removed
 
 const container = document.querySelector('.snappy');
 const items = document.querySelectorAll('.section');

@@ -4,7 +4,7 @@
 Rails.application.config.assets.version = "1.0"
 
 # Bootstrap
-Rails.application.config.assets.precompile += %w( bootstrap.min.js popper.js)
+# Rails.application.config.assets.precompile += %w( bootstrap.min.js popper.js) -- removed
 # RB font
 Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
