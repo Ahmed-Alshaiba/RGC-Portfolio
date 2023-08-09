@@ -5,3 +5,26 @@ import "controllers"
 // bootstrap
 import "popper"
 import "bootstrap"
+
+const container = document.querySelector('.snappy');
+const items = document.querySelectorAll('.section');
+
+container.addEventListener('wheel', (event) => {
+  event.preventDefault();
+  const delta = event.deltaY;
+
+  container.scrollBy({
+    top: delta,
+    behavior: 'smooth'
+  });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
