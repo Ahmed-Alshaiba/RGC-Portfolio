@@ -1,17 +1,19 @@
 <div class="snappy">
   <%= render 'navbar' %>
   <section class="section" id="home">
-    <div class="name">
-      <%= image_tag "LogoAndName.png" %>
-    </div>
+    <%= image_tag "LogoAndName.png", id:"logo-img" %>
+    <%= image_tag "pattrenFull.png", class:"pattren" %>
   </section>
   <section class="section" id="projects">
-  <h1 class="color-danger">Projects</h1>
+    <h1 class="color-danger">Projects</h1>
+    <%= image_tag "pattrenFull.png", class:"pattren" %>
   </section>
   <section class="section" id="view">
     <h1>View</h1>
+    <%= image_tag "pattrenFull.png", class:"pattren" %>
   </section>
   <section class="section" id="about-us">
     <h1>About Us</h1>
+    <%= image_tag "halfPattern.png", class:"pattren", id:"end-pattern" %>
   </section>
 </div>
