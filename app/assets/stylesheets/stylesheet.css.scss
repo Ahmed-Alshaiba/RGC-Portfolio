@@ -14,27 +14,23 @@
 
 /* navbar styling */
 .collapse-btn {
+  font-size: smaller ;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 25px;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(193, 149, 36);
+  color: rgb(63, 63, 63);
+  border: solid 2px;
+  border-radius: 10rem;
+  border-color: rgb(145, 114, 35);
   display: none; /* Initially hide the collapse button */
 }
-/* Media query for mobile screens */
-@media (max-width: 768px) {
-  .arabic, .english{
-    display: grid;
-  }
-  // collapse-menu
-  .collapse-btn {
-    display: block; /* Show the collapse button on mobile screens */
-    position: absolute;
-    z-index: 1;
-  }
 
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;/* Add styles for the collapsed content */
-  }
-}
 nav{
   width: 100%;
   height: 50px;
@@ -43,6 +39,8 @@ nav{
   position: fixed;
 }
 nav ul.english{
+  position: absolute;
+  left: 0;
   justify-items: start;
   padding-top: 10px;
   float: left;
@@ -104,7 +102,7 @@ nav ul li a{
   z-index: 1;
 }
 
-#logo-img{
+.logo-img{
   width: 50%;
   max-width: 19rem;
   height: auto;
@@ -121,9 +119,6 @@ nav ul li a{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-
-  /* position: relative; */
   background-color: rgb(63, 63, 63);
 }
 
@@ -144,3 +139,36 @@ nav ul li a{
   100% { transform: translateY(-100%); }
 }
 
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .arabic, .english{
+    display: grid;
+    font-size: smaller;
+  }
+  // collapse-menu
+  .collapse-btn {
+    display: block; /* Show the collapse button on mobile screens */
+    position: absolute;
+    z-index: 1;
+  }
+
+  #home{
+    background-position: -700px;
+  }
+
+  .content {
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;/* Add styles for the collapsed content */
+  }
+  .pattern{
+    display: none;
+  }
+}
+
+@media (max-height: 590px) {
+  .logo-img{
+    width: 15% !important;
+    max-width: 15rem !important;
+  }
+}
