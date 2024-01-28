@@ -86,7 +86,7 @@ nav ul li a{
 .section{
   height: 100vh;
   position: relative;
-  display: flex;
+  display: grid;
   overflow: hidden;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ nav ul li a{
 
 .logo-img{
   width: 50%;
-  max-width: 25rem;
+  max-width: 15rem;
   height: auto;
   display: flex;
   flex-direction: column;
