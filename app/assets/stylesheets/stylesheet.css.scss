@@ -105,9 +105,7 @@ nav ul li a{
 .logo-img{
   width: 50%;
   max-width: 15rem;
-  height: auto;
-  display: flex;
-  flex-direction: column;
+  height: auto; 
 }
 
 #navbar{
@@ -123,7 +121,7 @@ nav ul li a{
 }
 
 #projects{
-  background-color: rgb(193, 149, 36);
+  background-color: rgb(235, 183, 69);
 }
 
 #view{
@@ -131,7 +129,7 @@ nav ul li a{
 }
 
 #contacts{
-  background-color: rgb(193, 149, 36);
+  background-color: rgb(235, 183, 69);
 }
 
 .logo-img{
@@ -139,9 +137,12 @@ nav ul li a{
 }
 
 #name{
+  text-decoration-line: underline;
+  text-underline-offset: 20px ;
+  text-decoration-color: rgb(235, 183, 69);
+  direction: rtl;
   color: white;
-  margin-right: 5%;
-  font-size: 2.5em;
+  // font-size: 2.5em;
 }
 
 @keyframes scroll {
@@ -160,10 +161,6 @@ nav ul li a{
     display: block; /* Show the collapse button on mobile screens */
     position: absolute;
     z-index: 1;
-  }
-  
-  #home{
-    background-position: -700px;
   }
 
   .content {
