@@ -12,25 +12,6 @@
   font-display: swap;
 }
 
-/* navbar styling */
-.collapse-btn {
-  font-size: smaller ;
-  position: absolute;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-top: 25px;
-  height: 50px;
-  width: 100px;
-  background-color: rgb(193, 149, 36);
-  color: rgb(63, 63, 63);
-  border: solid 2px;
-  border-radius: 10rem;
-  border-color: rgb(145, 114, 35);
-  display: none; /* Initially hide the collapse button */
-}
-
 nav{
   width: 100%;
   height: 50px;
@@ -101,11 +82,11 @@ nav ul li a{
 }
 
 #view{
-  background-color: rgb(63, 63, 63);
+  background-color: #3f3f3f;
 }
 
 #contacts{
-  background-color: rgb(235, 183, 69);
+  background-color: #ebb745;
 }
 
 
@@ -129,17 +110,4 @@ nav ul li a{
     display: grid;
     font-size: smaller;
   }
-  // collapse-menu
-  .collapse-btn {
-    display: block; /* Show the collapse button on mobile screens */
-    position: absolute;
-    z-index: 1;
-  }
-
-  .content {
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;/* Add styles for the collapsed content */
-  }
- 
 }

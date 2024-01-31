@@ -8,6 +8,11 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
+    colors:{
+      primary: '#ebb745',
+      secondary: '#3f3f3f',
+      white: '#f1f1f1'
+    },
     extend: {
       zIndex: {
         '1': '1',
