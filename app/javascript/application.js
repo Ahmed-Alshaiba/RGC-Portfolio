@@ -7,7 +7,6 @@ import "controllers"
 // import "bootstrap" -- removed
 
 const container = document.querySelector('.snappy');
-const items = document.querySelectorAll('.section');
 
 container.addEventListener('wheel', (event) => {
   event.preventDefault();

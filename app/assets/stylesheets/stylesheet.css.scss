@@ -83,30 +83,6 @@ nav ul li a{
   height: 100vh ;
 }
 
-.section{
-  height: 100vh;
-  position: relative;
-  display: grid;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-  scroll-snap-align: start;
-}
-
-.pattern{
-  position: absolute;
-  width: 100vw;
-  overflow: hidden;
-  bottom: 0;
-  opacity: 40%;
-  z-index: 1;
-}
-
-.logo-img{
-  width: 50%;
-  max-width: 15rem;
-  height: auto; 
-}
 
 #navbar{
   z-index: 2;
@@ -132,9 +108,6 @@ nav ul li a{
   background-color: rgb(235, 183, 69);
 }
 
-.logo-img{
-  display: block;
-}
 
 #name{
   text-decoration-line: underline;
@@ -168,14 +141,5 @@ nav ul li a{
     overflow: hidden;
     background-color: #f1f1f1;/* Add styles for the collapsed content */
   }
-  .pattern{
-    display: none;
-  }
-}
-
-@media (max-height: 590px) {
-  .logo-img{
-    width: 15% !important;
-    max-width: 15rem !important;
-  }
+ 
 }

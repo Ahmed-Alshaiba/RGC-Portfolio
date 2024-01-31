@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      zIndex: {
+        '1': '1',
+      },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },

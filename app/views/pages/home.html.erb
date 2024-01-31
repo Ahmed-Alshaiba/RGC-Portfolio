@@ -1,17 +1,17 @@
 <div class="snappy">
   <%= render 'navbar' %>
-  <section class="section relative grid grid-rows-4 grid-cols-2 " id="home">
+  <section class="h-screen relative grid overflow-hidden justify-center items-center snap-start grid-rows-4 grid-cols-2 " id="home">
     <%= render 'home' %>
     <%= image_tag "sideBuilding.png", class:"absolute right-0 bottom-0 h-5/6 max-h-screen opacity-70 max-lg:hidden"%>
-    <%= image_tag "PatternColored.png", class:"pattern row-span-1" %>
+    <%= image_tag "PatternColored.png", class:"absolute w-screen overflow-hidden bottom-0 opacity-40 z-1 max-md:hidden row-span-1" %>
   </section>
-  <section class="section" id="projects">
+  <section class="h-screen relative grid overflow-hidden justify-center items-center snap-start " id="projects">
     <h1 class="color-danger">Projects</h1>
   </section>
-  <section class="section" id="view">
+  <section class="h-screen relative grid overflow-hidden justify-center items-center snap-start " id="view">
     <h1>View</h1>
   </section>
-  <section class="section" id="contacts">
+  <section class="h-screen relative grid overflow-hidden justify-center items-center snap-start " id="contacts">
     <h1>Our Contacts</h1>
   </section>
 </div>
