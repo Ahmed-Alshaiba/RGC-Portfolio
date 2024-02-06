@@ -11,7 +11,13 @@
   font-style: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: 'RB';
+  src: url('riyad-bank-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 nav{
   width: 100%;
   height: 50px;
@@ -58,6 +64,10 @@ nav ul li a{
   box-sizing: border-box;
 }
 
+.rtl{
+  direction: rtl; 
+}
+
 .snappy{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -69,15 +79,21 @@ nav ul li a{
   z-index: 2;
 }
 
+
+
 #home{
-  background-image: asset-url("craneBG.png");
+  background-image: asset-url("RGC2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgb(63, 63, 63);
 }
 
-#projects{
+#us{
+  background-image: asset-url("RGC1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: rgb(235, 183, 69);
 }
 
@@ -94,7 +110,6 @@ nav ul li a{
   text-decoration-line: underline;
   text-underline-offset: 20px ;
   text-decoration-color: rgb(235, 183, 69);
-  direction: rtl;
   color: white;
   // font-size: 2.5em;
 }
