@@ -14,6 +14,9 @@ module.exports = {
       white: '#f1f1f1'
     },
     extend: {
+      textUnderlineOffset: {
+        30: '30px',
+      },
       zIndex: {
         '1': '1',
       },

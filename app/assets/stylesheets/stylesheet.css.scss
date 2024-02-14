@@ -86,7 +86,7 @@ nav ul li a{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(30, 30, 30);
 }
 
 #us{
@@ -94,14 +94,22 @@ nav ul li a{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgb(235, 183, 69);
+  background-color: rgb(189, 150, 65);
 }
 
 #view{
-  background-color: #3f3f3f;
+  background-image: asset-url("RGC3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
 }
 
 #contacts{
+  background-image: asset-url("RGC4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #ebb745;
 }
 
