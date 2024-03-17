@@ -79,7 +79,22 @@ nav ul li a{
   z-index: 2;
 }
 
+.olnum{
+  ol {
+    list-style: none;
+  }
 
+  ol li {
+    counter-increment: item;
+  }
+
+  ol li:before {
+    color: #ebb745;
+    font-weight: bolder;
+    content: counter(item, decimal-leading-zero);
+    padding-left: 1rem;
+  }
+}
 
 #home{
   background-image: asset-url("RGC2.png");
@@ -121,6 +136,47 @@ nav ul li a{
   color: white;
   // font-size: 2.5em;
 }
+
+#field{
+  background-image: asset-url("RGC4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+}
+
+#elec{
+  background-image: asset-url("elecBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+}
+
+#finishing{
+  background-image: asset-url("finishingBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+}
+
+#mechanic{
+  background-image: asset-url("mechanicBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+}
+
+#security{
+  background-image: asset-url("securityBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(30, 30, 30);
+}
+
 
 @keyframes scroll {
   0% { transform: translateY(0); }

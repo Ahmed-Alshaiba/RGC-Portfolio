@@ -1,0 +1,88 @@
+<section class="rtl h-screen relative grid grid-rows-3 overflow-hidden justify-center items-center snap-start text-white p-1 max-lg:p-4" id="field">
+  <h1 class="text-8xl max-lg:text-5xl font-bold text-primary self-end">مجال اعمالنا</h1>
+  <ul class="text-5xl max-lg:text-3xl max-md:text-xl grid row-span-2 grid-cols-[max-content_4fr_max-content_4fr] gap-y-6 max-md:gap-y-3 gap-x-8 grid-rows-3 max-md:grid-rows-5 max-md:grid-cols-[max-content_4fr]">
+    <%= image_tag "electric.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-end border-l-2 border-primary p-2" %>
+    <li class="self-center">الأعمال الكهربائية</li>
+    <%= image_tag "electromechanic.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-end border-l-2 border-primary p-2" %>
+    <li class="self-center">الأعمال الإلكتروميكانيكية</li>
+    <%= image_tag "finishing.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-end border-l-2 border-primary p-2" %>
+    <li class="self-center">أعمال التشطيب والتشغيل</li>
+    <%= image_tag "mechanic.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-end border-l-2 border-primary p-2" %>
+    <li class="self-center">الأعمال الميكانيكية</li>
+    <%= image_tag "safety.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-end border-l-2 border-primary p-2" %>
+    <li class="self-center">انظمة الأمان والسلامة</li>
+  </ul>
+</section> 
+
+<section class="rtl h-screen relative grid grid-cols-3 max-md:grid-cols-1 overflow-hidden justify-center items-center snap-start text-white">
+  <div class="col-span-1 max-md:hidden grid grid-cols-1 gap-10 h-full" id="elec">
+    <h1 class="text-5xl max-2xl:text-4xl max-xl:text-2xl font-bold justify-self-center self-end">الأعمال الكهربائية</h1>
+    <%= image_tag "electric.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-center" %>
+  </div>
+  <div class="grid items-center col-span-2 bg-white h-screen p-14 olnum">
+    <h1 class="text-3xl max-sm:text-xl md:hidden font-bold text-primary drop-shadow-lg justify-self-center self-end">أعمال الكهربائية</h1>
+    <ol class="list-decimal list-inside text-secondary leading-normal text-4xl max-2xl:text-3xl max-md:text-xl grid grid-flow-row gap-7">
+      <li class="drop-shadow-lg">تأسيس أعمال الانارة</li>
+      <li class="drop-shadow-lg">تأسيس تركيب اللوحات وتوزيع الأحمال الكهربائية.</li>
+      <li class="drop-shadow-lg">نظام تمديد الكوابل.</li>
+      <li class="drop-shadow-lg">تأسيس وتمديد أنظمه الكاميرات الأمنيه.</li>
+      <li class="drop-shadow-lg">تأسيس أنظمه الانترنت والشبكات.</li>
+      <li class="drop-shadow-lg">نظام التحكم في المباني bms</li>
+      <li class="drop-shadow-lg">تأسيس وتمديد كيابل الفايبر</li>
+      <li class="drop-shadow-lg">نظام UPS</li>
+      <li class="drop-shadow-lg">نظام أبواب التحكم.</li>
+      <li class="drop-shadow-lg">تأسيس نظام انذار الحريق</li>
+    </ol>
+  </div>
+</section>
+
+<section class="rtl h-screen relative grid grid-cols-3 max-md:grid-cols-1 overflow-hidden justify-center items-center snap-start text-white">
+  <div class="grid items-center col-span-2 bg-white h-screen p-14 olnum">
+    <h1 class="text-3xl max-sm:text-xl md:hidden font-bold text-primary drop-shadow-lg justify-self-center self-end">أعمال الميكانيكية</h1>
+    <ol class="list-decimal list-inside text-secondary leading-normal text-4xl max-xl:text-3xl max-md:text-xl grid grid-flow-row gap-7">
+      <li class="drop-shadow-lg">نظام تكييف الهواء VRV.</li>
+      <li class="drop-shadow-lg">التهوية المركزية.</li>
+      <li class="drop-shadow-lg">نظام الإطفاء الّرش الآلي.</li>
+      <li class="drop-shadow-lg">نظام الإطفاء بالغازات النظيفة.</li>
+      <li class="drop-shadow-lg">الصرف والتغذية.</li>
+    </ol>
+  </div>
+  <div class="col-span-1 max-md:hidden grid grid-cols-1 gap-10 h-full" id="mechanic">
+    <h1 class="text-5xl max-2xl:text-4xl max-xl:text-2xl font-bold justify-self-center self-end">الأعمال الميكانيكية</h1>
+    <%= image_tag "mechanic.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-center" %>
+  </div>
+</section>
+
+<section class="rtl h-screen relative grid grid-cols-3 max-md:grid-cols-1 overflow-hidden justify-center items-center snap-start text-white">
+  <div class="col-span-1 max-md:hidden grid grid-cols-1 gap-10 h-full" id="security">
+    <h1 class="text-5xl max-2xl:text-4xl max-xl:text-2xl font-bold justify-self-center self-end">نظام الأمن والسلامة</h1>
+    <%= image_tag "safety.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-center" %>
+  </div>
+  <div class="grid items-center col-span-2 bg-white h-screen p-14 olnum">
+    <h1 class="text-3xl max-sm:text-xl md:hidden font-bold text-primary drop-shadow-lg justify-self-center self-end">أعمال الأمن والسلامة</h1>
+    <ol class="list-decimal list-inside text-secondary leading-normal text-4xl max-xl:text-3xl max-md:text-xl grid grid-flow-row gap-7">
+      <li class="drop-shadow-lg">تركيب كاميرات المراقبه DVR .</li>
+      <li class="drop-shadow-lg">تركيب اجهزة الانذار .</li>
+      <li class="drop-shadow-lg">تركيب وتنفيذ اعمال الشبكات.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="rtl h-screen relative grid grid-cols-3 max-md:grid-cols-1 overflow-hidden justify-center items-center snap-start text-white" >
+  <div class="grid items-center col-span-2 bg-white h-screen p-14 olnum">
+    <h1 class="text-3xl max-sm:text-xl md:hidden font-bold text-primary drop-shadow-lg justify-self-center self-end">أعمال التشطيب والتشغيل</h1>
+    <ol class="list-decimal list-inside text-secondary leading-normal text-4xl max-xl:text-3xl max-md:text-xl grid grid-flow-row gap-7">
+      <li class="drop-shadow-lg">تشطيب معارض ، مكاتب ادارية، منازل، فلل ، قصور، مستودعات، مطاعم، كافيهات</li>
+      <li class="drop-shadow-lg">اعمال جبس + بديل الخشب + بديل الرخام + ديكورات الفوم .</li>
+      <li class="drop-shadow-lg">لياسه</li>
+      <li class="drop-shadow-lg">ارضيات سيراميك برسلان رخام باركيه ڤينيل.</li>
+      <li class="drop-shadow-lg">الملاعب الرياضية- البادل .</li>
+      <li class="drop-shadow-lg">اعمال الكلايدنج - مباني تجارية - محطات البترول.</li>
+      <li class="drop-shadow-lg">اعمال السباكة.</li>
+    </ol>
+  </div>
+  <div class="col-span-1 max-md:hidden grid grid-cols-1 gap-10 h-full" id="finishing">
+    <h1 class="text-5xl max-2xl:text-4xl max-xl:text-2xl font-bold justify-self-center self-end">أعمال التشطيب والتشغيل</h1>
+    <%= image_tag "finishing.png", class:"size-36 max-lg:size-28 max-md:size-20 justify-self-center" %>
+  </div>
+</section>
