@@ -8,12 +8,15 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
-    colors:{
-      primary: '#ebb745',
-      secondary: '#3f3f3f',
-      white: '#f1f1f1'
-    },
     extend: {
+      colors:{
+        primary: '#ebb745',
+        secondary: '#3f3f3f',
+        white: '#f1f1f1'
+      },
+      boxShadow:{
+        '3xl': 'rgba(0, 0, 0, 0.4) 0px 30px 90px;',
+      },
       textUnderlineOffset: {
         30: '30px',
       },

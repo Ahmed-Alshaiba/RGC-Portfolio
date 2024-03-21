@@ -181,6 +181,10 @@ nav ul li a{
   background-color: rgb(57, 58, 56);
 }
 
+#samples{
+  background-color: #b3b3b3;
+}
+
 @keyframes scroll {
   0% { transform: translateY(0); }
   100% { transform: translateY(-100%); }
